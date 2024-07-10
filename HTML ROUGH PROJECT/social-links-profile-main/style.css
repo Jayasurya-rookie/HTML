@@ -1,0 +1,59 @@
+:root{
+    --white:hsl(0, 0%, 100%);/*text*/
+    --grey:hsl(0, 0%, 20%);/*center*/
+    --darkgrey:hsl(0, 0%, 12%);/*background*/
+    --offblack:hsl(0, 0%, 8%);/*button*/
+}
+body{
+    background-color:var(--darkgrey);
+    color:var(--white);
+    font-size:1rem;
+    font-weight: 400px,600px,700px;
+    display: block;
+}
+.details img{
+    
+    border-radius: 50%;
+    width:50px;
+    display: block;
+    margin:auto;
+
+}
+.profile{
+    text-align: center;
+    background-color:var(--grey);
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top:10%;
+}
+
+.profile button{
+    
+    position: relative;
+    top: 10px;
+    background-color:rgb(63, 62, 62);
+    color: var(--white);
+    border-radius: 2px;
+    width: 150px;
+    
+    
+}
+
+footer{
+    margin-top: 80vh;
+    
+}
+
+button:hover{
+    background-color: green;
+}
+address{
+    font-family:sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    color: rgb(192, 255, 3);
+}
