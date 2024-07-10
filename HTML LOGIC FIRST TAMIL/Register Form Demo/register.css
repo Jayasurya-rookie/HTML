@@ -1,0 +1,98 @@
+body{
+   
+    
+    /* background: url(index.jpg); */
+    
+    font-size: 30px;
+    width: 100%;
+    /* overflow: hidden; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+video{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+#background-video{
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+
+
+
+
+}
+
+
+.regform{
+    width: 500px;
+    background-color: rgb(0, 0, 0,0.5);
+    margin: 250px auto;
+    color: white;
+    padding: 10px 20px 30px;
+    border-radius: 50px;
+    
+    /* overflow: block; */
+    
+    
+}
+
+
+.regform h3{
+    color: #E29578;
+    text-align: center;
+
+}
+.regform .textlabel{
+    display: block;
+}
+
+.input input{
+    width: 100%;/*it will adjust input class inside 
+    input element box to width of container given*/
+    font-size: 1.2em;/*it will increase the
+    box size */
+    border: 1px solid rgb(255, 38, 0);
+    border-radius: 8px;
+    box-shadow: 2px rgb(255, 30, 30);
+    padding: 10px 10px;/*to adjust input space*/
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+
+
+
+
+
+
+}
+input:focus{
+    background-color: rgb(227, 43, 147);
+}
+
+.btn{
+    text-align: center;
+
+}
+button{
+    background-color: pink;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: 1px solid black;
+    box-shadow: 2px;
+    border-radius: 50px;
+
+
+}
+
+.radio input{
+    accent-color:black;
+    transform: scale(1.5);
+
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+}
+
+.container div{
+    background-color: pink;
+    border:2px solid  black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 0px;
+    grid-auto-flow: row;
+    grid-template-rows: 1fr 200px 1fr;
+
+    
+
+    
+}
+.header{
+    grid-column: 1/4;
+}
+.footer{
+    grid-column: 1/4;
+}
+
